@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INFOBATTLE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="config-container">
+        <button id="start" class="text" onclick="start()">Começar >>></button>
+        <h1 class="text title" onclick="start()">Players</h1>
+        <h1 class="text title" onclick="start()">Lugar</h1>
+        <button class="place semi-text">Hunger Games</button>
+        <button class="place semi-text">IFRN</button>
+        <button class="place semi-text">Cracolândia</button>
+        <h1 class="text title" onclick="start()">Eventos</h1>
+        <h1 class="text title" onclick="start()">Patrocinadores</h1>
+        <h1 class="text title" onclick="start()">Violência</h1>
+        <h1 class="text title" onclick="start()">Recursos</h1>
+    </div>
+    <div id="players-container"></div>
+    <script src="index.js"></script>
+</body>
+</html>
+
+<!-- config:
+
+Violência > 0 - 10
+Lugares > Hunger Games, IFRN, Cracolândia, Disney
+Pessoas > Professores on|off, adicionar pessoas, remover pessoas
+Patrocinadores > On|Off
+Recursos > Pesca, 
+Eventos > Lobos, Nuvem misteriosa, Chuva de veneno, Invasão de praga, 
+
+
+Status de player:
+Saúde (cada parte do corpo)
+Sanidade
+Equipamentos
+-->
